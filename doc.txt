@@ -1,1 +1,92 @@
-Realizar anotações do projeto
+
+           Sistema de organização Financeiro pessoal 
+
+
+---------------------------------------------------------------
+                       Requisitos 
+
+
+---
+
+## Requisitos Funcionais (RF)
+
+1. **Cadastro de Usuário**
+
+   * RF01: O sistema deve permitir que o usuário crie uma conta com login e senha.
+   * RF02: O sistema deve permitir que o usuário faça login e logout.
+
+2. **Gerenciamento de Contas**
+
+   * RF03: O sistema deve permitir que o usuário cadastre diferentes contas (ex: conta corrente, poupança, cartão de crédito).
+   * RF04: O sistema deve permitir que o usuário edite e exclua contas cadastradas.
+
+3. **Registro de Receitas e Despesas**
+
+   * RF05: O sistema deve permitir que o usuário registre receitas e despesas, informando valor, data, categoria e descrição.
+   * RF06: O sistema deve permitir a edição e exclusão dos registros de receitas e despesas.
+
+4. **Categorias de Despesas e Receitas**
+
+   * RF07: O sistema deve permitir que o usuário crie, edite e exclua categorias personalizadas para receitas e despesas.
+
+5. **Visualização de Relatórios**
+
+   * RF08: O sistema deve apresentar relatórios gráficos e tabelas com resumo mensal de receitas, despesas e saldo.
+   * RF09: O sistema deve permitir filtragem dos relatórios por período, categoria e conta.
+
+6. **Orçamento**
+
+   * RF10: O sistema deve permitir que o usuário defina orçamentos mensais para categorias específicas.
+   * RF11: O sistema deve avisar o usuário quando estiver próximo ou ultrapassar o limite do orçamento.
+
+7. **Alertas e Notificações**
+
+   * RF12: O sistema deve enviar notificações para o usuário sobre contas a pagar, vencimentos e limites de orçamento.
+
+8. **Importação/Exportação de Dados**
+
+   * RF13: O sistema deve permitir a importação de dados financeiros em formatos comuns (ex: CSV).
+   * RF14: O sistema deve permitir exportar os dados para formatos comuns (ex: CSV, PDF).
+
+9. **Backup e Restauração**
+
+   * RF15: O sistema deve permitir que o usuário faça backup dos seus dados e restaure a partir de backups.
+
+---
+
+## Requisitos Não Funcionais (RNF)
+
+1. **Usabilidade**
+
+   * RNF01: A interface deve ser intuitiva e fácil de usar para usuários com pouco conhecimento em finanças.
+   * RNF02: O sistema deve ser responsivo, funcionando bem em dispositivos móveis e desktops.
+
+2. **Performance**
+
+   * RNF03: O sistema deve carregar relatórios em até 3 segundos para até 1.000 registros.
+
+3. **Segurança**
+
+   * RNF04: As senhas dos usuários devem ser armazenadas de forma criptografada.
+   * RNF05: O sistema deve garantir a confidencialidade dos dados financeiros do usuário.
+   * RNF06: A comunicação entre cliente e servidor deve ser criptografada (ex: HTTPS).
+
+4. **Disponibilidade**
+
+   * RNF07: O sistema deve estar disponível 99,5% do tempo.
+
+5. **Escalabilidade**
+
+   * RNF08: O sistema deve ser capaz de suportar crescimento no número de usuários sem perda significativa de performance.
+
+6. **Portabilidade**
+
+   * RNF09: O sistema deve ser acessível via navegadores comuns (Chrome, Firefox, Edge) e ser compatível com os principais sistemas operacionais móveis.
+
+7. **Manutenibilidade**
+
+   * RNF10: O código do sistema deve ser modular e documentado para facilitar futuras atualizações e correções.
+
+---
+
+---------------------------------------------------------------
