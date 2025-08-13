@@ -1,0 +1,36 @@
+
+Casos de Uso 
+
+
+Verção: 1.0         
+Responsável: Carlos Martins 
+
+	
+
+
+
+Caso de Uso 1: Cadastro de Conta 
+
+    Ator Principal:
+    
+    Pré-Condições: 
+        O usuário deve acessar o aplicativo pela primeira vez ou desejando criar uma nova conta no Zenny.
+    
+Fluxo Principal: 
+
+O usuário deverá selecionar a opção de cadastro de conta.
+Após selecionar a opção de cadastro, deverá escolher o método de cadastro, onde haverá algumas opções.
+Irá preencher algumas perguntas em um pequeno formulário para conhecermos melhor o usuário.
+
+
+Fluxo Alternativo; 
+Até o momento não foi identificado um fluxo alternativo;
+
+Pós-Condições:
+	O usuário terá acesso a página Principal do sistema.
+
+
+
+
+
+
